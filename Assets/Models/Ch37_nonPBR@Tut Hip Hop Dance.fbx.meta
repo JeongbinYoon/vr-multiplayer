@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 9eea516e65501874d9d4be51e438d263
 ModelImporter:
-  serializedVersion: 20200
+  serializedVersion: 19301
   internalIDToNameTable:
   - first:
       74: -203655887218126122
@@ -11,32 +11,32 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch37_1001_Diffuse
-    second: {fileID: 2800000, guid: 1beeef6d07573eb409e72f48004c5ea2, type: 3}
+    second: {fileID: 2800000, guid: 6215c5e05af1229419077d8673513d4d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch37_1001_Glossiness
-    second: {fileID: 2800000, guid: e81dcc0dd3660d64584c4113a64e8fd8, type: 3}
+    second: {fileID: 2800000, guid: d34994cffd58e3f4ea137291231e8058, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch37_1001_Normal
-    second: {fileID: 2800000, guid: 690ec4110e547c74c97b5de00e1857ff, type: 3}
+    second: {fileID: 2800000, guid: ea666857a82980e41b12a5f5f5fbade2, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch37_1001_Specular
-    second: {fileID: 2800000, guid: d80245bd409ef2240b53647686508e1f, type: 3}
+    second: {fileID: 2800000, guid: 54a31e80a601db04e8f8107d57e50f7d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch37_1002_Diffuse
-    second: {fileID: 2800000, guid: f1c389906c534b7439db9d7120fe0551, type: 3}
+    second: {fileID: 2800000, guid: 8c97debf3459a2547abe8905c0273759, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch37_1002_Normal
-    second: {fileID: 2800000, guid: 6c4186107b3d4ef499f6a200db88c54c, type: 3}
+    second: {fileID: 2800000, guid: 344a87248c2d9c646a05a33a306106cd, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -60,7 +60,7 @@ ModelImporter:
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
-    animationWrapMode: 0
+    animationWrapMode: 2
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations:
@@ -70,7 +70,7 @@ ModelImporter:
       internalID: 0
       firstFrame: 0
       lastFrame: 508
-      wrapMode: 2
+      wrapMode: 4
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -111,7 +111,6 @@ ModelImporter:
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
@@ -121,9 +120,6 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 1
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -188,17 +184,20 @@ ModelImporter:
     - name: mixamorig6:Spine
       parentName: mixamorig6:Hips
       position: {x: -0, y: 0.10156761, z: -0.0041882703}
-      rotation: {x: -0.020605007, y: -0.0000000028647884, z: -0.0000000022422924, w: 0.9997877}
+      rotation: {x: -0.020605007, y: -0.0000000028647884, z: -0.0000000022422924,
+        w: 0.9997877}
       scale: {x: 1, y: 0.99999994, z: 1}
     - name: mixamorig6:Spine1
       parentName: mixamorig6:Spine
       position: {x: -0, y: 0.11859618, z: 1.15589725e-10}
-      rotation: {x: -0.000000027939677, y: 0.0000000028179776, z: 0.0000000023008453, w: 1}
+      rotation: {x: -0.000000027939677, y: 0.0000000028179776, z: 0.0000000023008453,
+        w: 1}
       scale: {x: 1, y: 1.0000002, z: 1}
     - name: mixamorig6:Spine2
       parentName: mixamorig6:Spine1
       position: {x: -0, y: 0.13553844, z: 1.9701218e-11}
-      rotation: {x: -0.0000000055879354, y: -2.0984547e-10, z: 0.0000000050888467, w: 1}
+      rotation: {x: -0.0000000055879354, y: -2.0984547e-10, z: 0.0000000050888467,
+        w: 1}
       scale: {x: 1, y: 0.9999995, z: 1.0000006}
     - name: mixamorig6:Neck
       parentName: mixamorig6:Spine2
@@ -413,7 +412,8 @@ ModelImporter:
     - name: mixamorig6:RightHandMiddle4
       parentName: mixamorig6:RightHandMiddle3
       position: {x: -0.000042511438, y: 0.02777363, z: -1.6799248e-10}
-      rotation: {x: -0.000000029802319, y: -0.00000004427073, z: -0.0000000103262385, w: 1}
+      rotation: {x: -0.000000029802319, y: -0.00000004427073, z: -0.0000000103262385,
+        w: 1}
       scale: {x: 1, y: 0.99999994, z: 0.99999994}
     - name: mixamorig6:RightHandRing1
       parentName: mixamorig6:RightHand
@@ -522,7 +522,6 @@ ModelImporter:
   animationType: 1
   humanoidOversampling: 1
   avatarSetup: 0
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
